@@ -604,6 +604,17 @@ img {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:hover {
+    background-color: #404BBF
+}
+
+.subscribe-button:focus {
+    background-color: #404BBF
 }
 
 .button-icon {
@@ -842,5 +853,13 @@ img {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-submit-button:hover {
+    background-color: #404BBF
+}
+
+.modal-submit-button:focus {
+    background-color: #404BBF
 }
 /* #endregion */
